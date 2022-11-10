@@ -1,7 +1,6 @@
 import { Square } from "../square";
 import styled from "styled-components";
 import { FC } from "react";
-import { calculateBoardWin } from "../helper/calculateBoardWin";
 interface Props {
   handleClick: (index: number) => void;
   value: string[];
