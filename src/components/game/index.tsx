@@ -1,8 +1,8 @@
 import { useState } from "react";
 import styled from "styled-components";
 import { Board } from "../board";
-import { bot } from "../helper/bot";
-import { calculateBoardWin } from "../helper/calculateBoardWin";
+import { bot } from "../../helper/bot";
+import { calculateBoardWin } from "../../helper/calculateBoardWin";
 export const Wrapper = styled.div``;
 export const FinishText = styled.span`
   display: flex;
